@@ -1,0 +1,53 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #007bff;
+    padding: 1rem;
+    color: white;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul h5 {
+    margin: 0 1rem;
+}
+
+header nav ul a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+.receta-detalle {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.receta-detalle img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+footer {
+    background-color: #007bff;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}

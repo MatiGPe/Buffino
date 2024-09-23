@@ -1,0 +1,125 @@
+/* recetas.css */
+body {
+    background-color: #f5f5f5; /* Color de fondo suave */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #ffffff; /* Fondo blanco para el header */
+    border-bottom: 1px solid #ddd; /* Borde inferior gris claro */
+    padding: 10px 20px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center; /* Centrar los elementos del menú */
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #555; /* Color de texto gris oscuro */
+    font-weight: bold;
+}
+
+header nav form {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+header nav form input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+header nav form button {
+    background-color: #007bff; /* Azul más suave */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+header nav form button:hover {
+    background-color: #0056b3; /* Azul más oscuro */
+}
+
+main {
+    padding: 20px;
+}
+
+main h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+main section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+main section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+main section ul li {
+    background-color: white;
+    border-radius: 12px; /* Esquinas más redondeadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+main section ul li img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+main section ul li h3 {
+    padding: 15px;
+    margin: 0;
+    background-color: #f8f9fa; /* Gris muy claro */
+    color: #333;
+    font-size: 1.2em; /* Fuente un poco más grande */
+}
+
+main section ul li p {
+    padding: 0 15px 15px;
+    margin: 0;
+    color: #666; /* Gris más claro para el texto */
+}
+
+main section ul li a {
+    display: block;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 0 0 12px 12px; /* Esquinas redondeadas en la parte inferior */
+}
+
+main section ul li a:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,28 @@
+{
+    "name": "buffino",
+    "version": "0.1.0",
+    "description": "Pagina de Recetas",
+    "main": "buffino",
+    "scripts": {
+      "start": "php -S 0.0.0.0 -t buffino/"
+    },
+    "dependencies": {
+      "fastify": "^4.21.0",
+      "handlebars": "^4.7.8",
+      "@fastify/formbody": "^7.4.0",
+      "@fastify/static": "^6.10.2",
+      "@fastify/view": "^8.0.0"
+    },
+    "engines": {
+      "node": "14.x"
+    },
+    "repository": {
+      "url": "https://buffino.glitch.me"
+    },
+    "license": "MIT",
+    "keywords": [
+      "node",
+      "glitch"
+    ]
+  }
+  
